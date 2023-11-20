@@ -23,10 +23,4 @@ steps:
     collectBuildInfo: true
     buildName: '$(Build.DefinitionName)'
     buildNumber: '$(Build.BuildNumber)'
-- task: JFrogPublishBuildInfo@1
-  inputs:
-    artifactoryConnection: 'Cloud Instance'
-    buildName: '$(Build.DefinitionName)'
-    buildNumber: '$(Build.BuildNumber)'
-    includeEnvVars: true
-    javaHomeOption: 'JDKVersion'
+

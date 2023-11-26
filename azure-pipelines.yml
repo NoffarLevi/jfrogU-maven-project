@@ -12,7 +12,7 @@ pool:
 steps:
 - task: JFrogMaven@1
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'hello-world/pom.xml'
     goals: 'clean install'
     artifactoryResolverService: 'Cloud Instance'
     targetResolveReleaseRepo: 'noffarl-azurepl-libs-release'
